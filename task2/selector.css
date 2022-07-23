@@ -1,0 +1,42 @@
+
+h1{
+    background-color: chartreuse;
+}
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: cyan;
+}
+#demo{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+{
+    background-color: blueviolet;
+}
+
+h2:hover{
+    color: darkred;
+    font-size: 30px;
+}
+p::first-letter{
+    font-size: 40px;
+}
+
+.heading4{
+    border-style: double;
+    border-color: chartreuse;
+    border-image: url(/css/image.jpg);
+    
+    
+
+    
+}
+h1{
+
+
+    background-image: linear-gradient(red,blue,green);
+    
+
+
+}
+

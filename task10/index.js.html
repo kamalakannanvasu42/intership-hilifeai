@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <script src="./script/script.js"></script>
+
+</head>
+<body>
+  <script>
+
+//celsius to fahrenhite
+
+    var celsius = 31;
+    //var number = prompt("Enter celsius number","");
+    var fahrenhite =31* 9/5 + 32;
+    console.log(fahrenhite);
+
+
+
+    //fahrenhite to celsius
+
+
+    var fahrenhite = 133;
+    //var number1 = prompt("Enter fahrenhite number","");
+    var celsius =  (133 - 32) * 5/9;
+    console.log(celsius);
+
+// prime numbers
+let number =parseInt(prompt("Enter positive number: "));
+let Prime = true;
+if (number === 1)
+{
+    console.log("prime number");
+}
+else if (number > 1) 
+     {
+        for (var i = 2; i < number; i++) {
+        if (number % i == 0)
+         {
+            Prime = false;
+            break;
+        }
+      }
+         if ('isPrime')
+          {
+        console.log(`I prime Number`);
+      }else
+       {
+        console.log(`Not prime Number`);
+        }
+    } 
+   else 
+   {
+         console.log("Number is Not a prime Number");
+       }
+
+
+    </script>
+</body>
+</html>
